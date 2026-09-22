@@ -7,7 +7,7 @@ body {
   background-repeat: no-repeat !important;
   background-attachment: fixed !important;
   background-position: center !important;
-  -webkit-background-size: cover !important;
+  -webkit-background-size: auto !important;
   background-size: cover !important;
 }
 
