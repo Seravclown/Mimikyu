@@ -106,27 +106,27 @@ border-color: #fff !important;
 
 /* "Post" Button under the Comment Box */
 #postComment {
-  background: #94908d !important;
+  background: #60337d !important;
 }
 
 /* Small Bar below Navbar (Home / ___s Den) */
 .breadcrumb {
-  background: rgba(218,217,215,0.1) !important;
+  background: rgba(96, 51, 125,.4) !important;
   border: none;
-  color: #f0f0f0 !important;
+  color: #ffee00 !important;
   border-radius: 4px !important;
 }
 
 
 /* Color of the ___s Den Text IN the breadcrumb */
 .breadcrumb .active {
-  color: #f0f0f0 !important;
+  color: #ffee00 !important;
 }
 
 /* Credits */
 .breadcrumb::after {
-  content: "Template by WAS #387866";
-  color: #f0f0f0 !important;
+  content: "Template by WAS #387866 || CSS by Sera #530814";
+  color: #ffee00 !important;
   position: absolute;
   right: 13%;
   z-index: 100
@@ -155,10 +155,10 @@ border-color: #fff !important;
 /* Bookmark Button*/
 input.floatright,
 input.floatright:hover {
-  background: rgba(218,217,215,0.2) !important;
-  border: none !important;
+  background:url('https://i.img-den.com/1046/im_pikachu.jpe') center center fixed !important;
+  border: dotted !important;
   border-radius: 0px !important;
-  color: #f0f0f0 !important;
+  color: #fff !important;
 }
 
 
