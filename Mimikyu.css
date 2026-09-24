@@ -14,9 +14,10 @@ body {
 /* Lioden Logo Replacement */
 div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
   content: url("https://i.img-den.com/1046/Untitled425_20260921192820.png") !important;
-  width: 240px !important;
+  width: 220px !important;
   height: 100px !important;
     position: relative;
+    left: 10%;
     top: -25%;
 }
 
@@ -55,8 +56,13 @@ div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
 
 /* Container behind Everything */
 .container.main {
-  background: rgba(123, 65, 159, 0.6) !important;
-  border: none;
+  background:url('https://i.img-den.com/1046/star_plasma_____duality.jpe') center center fixed !important;
+  background-repeat: no-repeat !important;
+  background-attachment: fixed !important;
+  background-position: center !important;
+  -webkit-background-size: cover !important;
+  background-size: cover !important;
+    border: dotted;
   border-radius: 0px;
 }
 
@@ -91,10 +97,10 @@ div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
 
 /* Comment Box */
 #commentBox {
-  background: rgba(248, 237, 99,0.7);
-  color: #b46900 !important;
+ background: rgba(96, 51, 125,.65) !important;
+  color: #fff !important;
   border: solid !important;
-border-color: #c9970f !important;
+border-color: #fff !important;
   border-radius: 8px !important;
 }
 
@@ -482,10 +488,10 @@ img[src$="unsortedlionsbanner.png"] {
 
 /* Caves */
 img[src$="cavedefault.jpg"] {
-  background: url('https://static.lioden.com/images/dynamic/backgrounds/nightmares.png') !important;
+  background: url('https://i.img-den.com/1046/c1ea490f84698d4cbe352c15759c36a9__2_.jpg') !important;
   padding-left: 100%;
   height: 130px !important;
-  background-position: 0% 80% !important;
+  background-position: 0% 90% !important;
   width 240px !important;
 }
 
