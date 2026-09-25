@@ -13,7 +13,7 @@ body {
 
 /* Lioden Logo Replacement */
 div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
-  content: url("https://i.img-den.com/1046/Untitled425_20260921192820.png") !important;
+  content: url("https://i.img-den.com/1046/Untitled425_20260921192820_1790048190.png") !important;
   width: 220px !important;
   height: 100px !important;
     position: relative;
@@ -56,7 +56,7 @@ div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
 
 /* Container behind Everything */
 .container.main {
-  background:url('https://i.img-den.com/1046/star_plasma_____duality.jpe') center center fixed !important;
+  background:url('https://i.img-den.com/1046/justinenatino.jpe') center center fixed !important;
   background-repeat: no-repeat !important;
   background-attachment: fixed !important;
   background-position: center !important;
