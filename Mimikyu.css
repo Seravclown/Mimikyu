@@ -520,6 +520,20 @@ img[src$="gold.png"] {
   width: 20px !important;
 }
 
+/* pagedoll */
+.container.main::after {
+	 content: "";
+    background-image: url('https://i.img-den.com/1046/1000004959-removebg-preview.png');
+    background-size: cover;
+    position: fixed;
+	display: block;
+    height:400px;
+    width:400px;
+	right:-50px;
+    bottom: -5rem;
+	z-index: 1;
+	pointer-events: none;
+}
 
 /* Copyright, Terms of Service, CoC, etc. */
 div.container.footer.center.white.visible-lg.visible-md.visible-sm,
@@ -553,4 +567,3 @@ div.container.footer.center.white.visible-lg.visible-md.visible-sm a {
   div.quote {
     width: 790px;
   }
- 
