@@ -194,7 +194,6 @@ h1 {
 /* Small Header (King Dynasty, Pride Dynasty, Achievements, etc) */
 h3 {
   color:rgba(57, 21, 79,.8) !important;
-       text-shadow:-2px -2px 2px #000  !important;
 }
 
 
@@ -569,4 +568,3 @@ div.container.footer.center.white.visible-lg.visible-md.visible-sm a {
   div.quote {
     width: 790px;
   }
- 
