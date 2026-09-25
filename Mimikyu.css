@@ -185,6 +185,7 @@ button.button:hover {
 /*Header 1 ('___'s Den) */
 h1 {
   color: #ffee00 !important;
+   text-shadow:-2px -2px 2px #000  !important;
   font-size: 43px !important;
   text-align: center !important;
 }
@@ -193,6 +194,7 @@ h1 {
 /* Small Header (King Dynasty, Pride Dynasty, Achievements, etc) */
 h3 {
   color:rgba(57, 21, 79,.8) !important;
+       text-shadow:-2px -2px 2px #000  !important;
 }
 
 
@@ -227,7 +229,7 @@ border-radius: 4px !important;
 /* Even Numbered Messages */
 .s-chat-message:nth-child(even) {
   background: rgba(218,217,215,0.2) !important;
-  color: #fff !important;
+  color: #ffee00 !important;
   border: none !important
 }
 
@@ -235,7 +237,7 @@ border-radius: 4px !important;
 /* Odd Numbered Messages */
 .s-chat-message:nth-child(odd)  {
   background: rgba(195,194,190,0.2) !important;
-  color: #fff !important;
+  color: #ffee00 !important;
   border: none !important
 }
 
@@ -243,7 +245,7 @@ border-radius: 4px !important;
 /* Pinned Message */
 .s-chat-message__pinned {
   background: rgba(195,194,190,0.3) !important;
-  color: #fff !important;
+  color: #ffee00 !important;
   border: none !important
 }
 
@@ -261,7 +263,7 @@ border-radius: 4px !important;
 
 /* BG of Chatbox */
 html.nolayout body {
-background: none !important
+background: rgba(57, 21, 79,.8) !important
 }
 
 /* Container BEHIND Edit your Details*/
