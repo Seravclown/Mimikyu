@@ -292,7 +292,7 @@ button#label_currentChannel {
   border: none !important
 }
 /*Avatar Borders*/
-#lion_image:after { content:url("https://i.img-den.com/1046/Untitled423_20260925091840.png");position:absolute;width: 200% !important;margin-left: -840px!important;top: 13px!important;scale:1.05;
+#lion_image:after { content:url("https://i.img-den.com/1046/Untitled423_20260925091840.png");position:absolute;width: 100% !important;margin-left: -840px!important;top: 13px!important;scale:1.05;
 				  }
 
 /* King Image */
