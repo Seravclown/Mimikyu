@@ -12,7 +12,7 @@ body {font-family: "Macondo", cursive;}
 /* Background & Description Color */
 body {
   background: url('https://i.img-den.com/1046/mimikyu3.jpe') center center fixed !important;
-  color: #ffffff !important;
+  color: #fff !important;
   background-repeat: no-repeat !important;
   background-attachment: fixed !important;
   background-position: center !important;
@@ -100,7 +100,7 @@ div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
 /* Bar at the Top (Welcome back, ___) */
 .topbar {
   background: rgba(96, 51, 125,.8) !important;
-  color: #f0f0f0 !important;
+  color: #000 !important;
   border: none;
 }
 
@@ -202,7 +202,7 @@ h1 {
 
 /* Small Header (King Dynasty, Pride Dynasty, Achievements, etc) */
 h3 {
-  color:rgba(57, 21, 79,.8) !important;
+  color:rgba(255, 238, 0,.8) !important;
 }
 
 
@@ -281,7 +281,7 @@ background: rgba(57, 21, 79,.8) !important
 #sparring,
 #allies .left,
 #editdetailspanel .right {
-  background: rgba(148,144,141,0.2) !important
+  background: rgba(57, 21, 79,.4) !important
 }
 
 
@@ -292,23 +292,22 @@ button#label_currentChannel {
   border: none !important
 }
 
+
 /* King Image */
 #lion_image {
   overflow: hidden;
-  border-radius: 8% !important;
+  border-radius: 0% !important;
 }
-
 
 /* Player Image */
 table#player img {
-  border-radius: 8% !important;
+  border-radius: 0% !important;
 }
-
 
 /* Color behind "Level, Stats, Branch, Territory" etc. */
 .inner-table .left {
-  background: rgba(218,217,215,0.2) !important;
-  color: #f0f0f0 !important;
+  background: rgba(0,0,0,0.65) !important;
+  color: #ff9c00 !important;
   border-radius: 0px !important;
   border-top-left-radius: 5px 5px !important;
   border-bottom-left-radius: 5px 5px !important;
@@ -317,8 +316,8 @@ table#player img {
 
 /* Color behind the number of all of the things above */
 .inner-table .right {
-  background: rgba(195,194,190,0.2) !important;
-  color: #f0f0f0 !important;
+  background: rgba(0,0,0,0.55) !important;
+  color: #ffee00 !important;
   border-radius: 0px !important;
   border-top-right-radius: 5px 5px !important;
   border-bottom-right-radius: 5px 5px !important;
@@ -327,14 +326,14 @@ table#player img {
 
 /* Area BEHIND the Above Mentioned */
 td.right, #about .right > td {
-  background: rgba(148,144,141,0.1) !important;
-  color: #f0f0f0 !important;
+  background: rgba(57, 21, 79,.8) !important;
+  color: #ff9c00 !important;
   border-radius: opx !important;
 }
 
 /* Kings Title */
 .xlarge.b {
-    color: #f0f0f0 !important; 
+    color: #ff9c00 !important; 
 }
 
 
@@ -356,17 +355,17 @@ td.right, #about .right > td {
 /* Affects the color behind "_ Unsorted", "_ Pregnant Lionesses", "View Pride Overview", and cave/mound names */
 .cave-grid,
 .mound-grid {
-  background: rgba(218,217,215,0.1) !important;
+  background: rgba(0, 0, 0,0.5) !important;
   border: none !important;
   border-radius: 3px !important;
-  color: #f0f0f0 !important;
+  color: #ff9c00 !important;
 }
 
 
 /* Feed All, Play All */
 .feature {
-  background: rgba(218,217,215,0.1) !important;
-  color: #f0f0f0 !important;
+  background: rgba(255, 238, 0,0.5) !important;
+  color: #000 !important;
   border: none !important;
   border-radius: 3px !important
 }
@@ -374,7 +373,7 @@ td.right, #about .right > td {
 /* Color behind King Dynasty, Pride Dynasty, etc */
 .feature,
 div.left {
-  background: rgba(218,217,215,0.1) !important;
+  background: rgba(0, 0, 0,0.6) !important;
   border: none;
   border-radius: 0px !important
 }
@@ -388,7 +387,7 @@ select[disabled] {
   background: rgba(195,194,190,0.3) !important;
   border: none !important;
   border-radius: 0px !important;
-  color: #f0f0f0 !important;
+  color: #000 !important;
   box-shadow: none !important;
   text-shadow: none !important
 }
@@ -424,22 +423,22 @@ div.slider.round::before {
 /* Link Color */
 a:link,
 a:visited {
-  color: #dad9d7 !important;
+  color: #ffee00 !important;
   font-weight: normal;
 }
 
 
 /* Link Color on Hover */
 a:hover {
-  color: #dad9d7!important;
+  color: #ff9c00!important;
 }
 
 /* bar behind Lions with Mutation, Kings Name etc */
 .top,
 .bottom,
 th {
-  background: rgba(195,194,190,0.2) !important;
-  color: #f0f0f0 !important;
+  background: rgba(0,0,0,0.8) !important;
+  color: #ff9c00 !important;
   border-radius: 0px
 }
 
@@ -547,7 +546,7 @@ img[src$="gold.png"] {
 /* Copyright, Terms of Service, CoC, etc. */
 div.container.footer.center.white.visible-lg.visible-md.visible-sm,
 div.container.footer.center.white.visible-lg.visible-md.visible-sm a {
-  color: #f0f0f0 !important;
+  color: #fff !important;
   text-shadow: none !important
 }
 
