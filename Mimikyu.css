@@ -365,7 +365,7 @@ td.right, #about .right > td {
 /* Feed All, Play All */
 .feature {
   background: rgba(255, 238, 0,0.5) !important;
-  color: #000 !important;
+  color: #fff !important;
   border: none !important;
   border-radius: 3px !important
 }
@@ -395,14 +395,14 @@ select[disabled] {
 
 /* Account options Panel  (Friend Requests Toggles, etc.) */
 .item-header {
-  background: rgba(148,144,141,0.3) !important;
-  color: #f0f0f0 !important;
+  background: rgba(0,0,0,0.3) !important;
+  color: #fff !important;
   border-radius: 0px !important;
 }
 
 /* Area BELOW the Above mentioned */
 .item {
-  background: rgba(195,194,190,0.1) !important;
+  background: rgba(0,0,0,0.1) !important;
   border: none !important;
   border-radius: 0px !important
 }
@@ -416,7 +416,7 @@ div.slider.round  {
 
 /* Circle Part */
 div.slider.round::before {
-  background: #dad9d7 !important
+  background: #000 !important
 }
 
 
@@ -447,22 +447,38 @@ th {
 .progress {
   background: rgba(195,194,190,0.4) !important;
   border: none;
-  color: #f0f0f0 !important;
+  color: #ffee00 !important;
   border-radius: 2px !important
 }
 
 /* Colored Part of the Above mentioned*/
 .progress-bar {
-  background: rgba(49,48,46,0.9) !important;
-  color: #f0f0f0 !important;
+  background: rgba(0,0,0,0.9) !important;
+  color: #ffee00 !important;
   border-radius: 0px !important;
 }
 
 /* Color of the Above mentioned */
 .progress div {
-  color: #f0f0f0 !important
+  color: #ffee00 !important
 }
-
+/*TIME/SEASONS*/
+/*Day*/
+img[src$="day.png"] {
+    content:url('https://pixels.crd.co/assets/images/gallery30/9eb8efc6.gif?v=29416114')!important;width:20px!important;
+}
+/*Night*/
+img[src$="night.png"] {
+    content:url('https://pixels.crd.co/assets/images/gallery30/b3d63e35.gif?v=29416114')!important;width:20px!important;
+}
+/*Dry*/
+img[src$="dry.png"] {
+    content:url('https://pixels.crd.co/assets/images/gallery10/e81276d4.gif?v=29416114')!important;width:20px!important;
+}
+/*Wet*/
+img[src$="wet.png"] {
+    content:url('https://pixels.crd.co/assets/images/gallery24/d246e4c8.gif?v=29416114')!important;width:20px!important;
+}
 
 /* Pregnant Lionesses */
 img[src$="nestingbanner.png"] {
@@ -495,39 +511,50 @@ img[src$="unsortedlionsbanner.png"] {
 }
 
 /* Caves */
-img[src$="cavedefault.jpg"] {
-  background: url('https://i.img-den.com/1046/c1ea490f84698d4cbe352c15759c36a9__2_.jpg') !important;
-  padding-left: 100%;
-  height: 130px !important;
-  background-position: 0% 90% !important;
-  width 240px !important;
+img[src$="default.png"] {
+content: url("https://i.imgur.com/B5pWSiB.png"); }
+
+div:nth-child(18) > a > div > img {
+content: url("caveTopL.png") !important;
 }
 
+div:nth-child(19) > a > div > img {
+content: url("caveTopM.png") !important;
+}
 
+div:nth-child(20) > a > div > img {
+content: url("caveTopR.png") !important;
+}
+
+div:nth-child(21) > a > div > img {
+content: url("caveMidL.png") !important;
+}
 /* Mounds */
-.mound-grid img {
-  background: url("https://static.lioden.com/images/dynamic/backgrounds/nightmares.png");
-  width: 0;
-  height: 0;
-  padding-top: 92px !important;
-  padding-right: 130px;
-  background-size: 100% !important;
-    background-position: 50% 60% !important;
+/*Default Mound Image*/
+img[src$="beetleunsorted.png"] {
+content: url("https://i.imgur.com/unsortedbeets.png") !important;
+}
+
+img[src$="beetlemound.png"] {
+content: url("https://i.imgur.com/allbeetmounds.png") !important;
+}
+
+img[src$="addbeetlemound.png"] {
+content: url("https://i.imgur.com/addbeetmound.png") !important;
 }
 
 
 /* SB Icon */
 img[src$="silver.png"] {
-  content: url('https://i.imgur.com/248oA1g.png') !important;
+  content: url('https://forestcake.carrd.co/assets/images/gallery37/9310aded.gif?v=f4645532') !important;
   width: 20px !important;
 }
 
 /* GB Icon */
 img[src$="gold.png"] {
-  content: url('https://i.imgur.com/JuepnJA.png') !important;
+  content: url('https://forestcake.carrd.co/assets/images/gallery43/917ef6bd.gif?v=f4645532') !important;
   width: 20px !important;
 }
-
 /* pagedoll */
 .container.main::after {
 	 content: "";
