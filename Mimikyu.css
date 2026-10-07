@@ -554,6 +554,59 @@ img[src$="gold.png"] {
 	z-index: 1;
 	pointer-events: none;
 }
+.Box3 {
+    background: rgba(0,0,0,0.85);
+    color: #fff;
+    border: none;
+    border-radius: 0px;
+    margin: 5px;
+    padding: 15px;
+
+    width: calc(100% - 10px);
+    height: 80px;
+
+    float: none;
+    clear: both;
+    box-sizing: border-box;
+
+    text-align: center;
+    overflow: hidden;
+
+    transition: 0.6s ease;
+}
+.Box3:hover {
+    height: auto;
+    overflow: auto;
+}
+
+.Box1,
+.Box2 {
+    background: rgba(0,0,0,0.85);
+    color: #fff;
+    border: none;
+    border-radius: 0px;
+    margin: 5px;
+    padding: 15px;
+
+    height: 80px;
+    width: calc(50% - 10px);
+
+    box-sizing: border-box;
+    overflow: hidden;
+
+    transition: 0.6s ease;
+}
+.Box1 {
+    float: left;
+}
+.Box2 {
+    float: right;
+}
+.Box1:hover,
+.Box2:hover {
+    height: auto;
+    overflow: auto;
+}
 
 /* Copyright, Terms of Service, CoC, etc. */
 div.container.footer.center.white.visible-lg.visible-md.visible-sm,
